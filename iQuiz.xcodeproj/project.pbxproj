@@ -13,10 +13,15 @@
 		EC12B5C22BF68C2D00CACE3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EC12B5C12BF68C2D00CACE3A /* Base */; };
 		EC12B5C42BF68C2F00CACE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC12B5C32BF68C2F00CACE3A /* Assets.xcassets */; };
 		EC12B5C72BF68C2F00CACE3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EC12B5C62BF68C2F00CACE3A /* Base */; };
+		EC12B5CF2BF697C600CACE3A /* QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12B5CE2BF697C600CACE3A /* QuizTableViewCell.swift */; };
+		EC12B5D12BF7307F00CACE3A /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12B5D02BF7307F00CACE3A /* QuestionViewController.swift */; };
+		EC12B5D32BF730F100CACE3A /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12B5D22BF730F100CACE3A /* AnswerViewController.swift */; };
+		EC12B5D52BF7311500CACE3A /* FinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC12B5D42BF7311500CACE3A /* FinishedViewController.swift */; };
+		EC12B5D72BF7501900CACE3A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC12B5D62BF7501900CACE3A /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC12B5B72BF68C2D00CACE3A /* iQuiz1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC12B5B72BF68C2D00CACE3A /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC12B5BA2BF68C2D00CACE3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC12B5BC2BF68C2D00CACE3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC12B5BE2BF68C2D00CACE3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		EC12B5C32BF68C2F00CACE3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC12B5C62BF68C2F00CACE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC12B5C82BF68C2F00CACE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC12B5CE2BF697C600CACE3A /* QuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewCell.swift; sourceTree = "<group>"; };
+		EC12B5D02BF7307F00CACE3A /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		EC12B5D22BF730F100CACE3A /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		EC12B5D42BF7311500CACE3A /* FinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedViewController.swift; sourceTree = "<group>"; };
+		EC12B5D62BF7501900CACE3A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +58,7 @@
 		EC12B5B82BF68C2D00CACE3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC12B5B72BF68C2D00CACE3A /* iQuiz1.app */,
+				EC12B5B72BF68C2D00CACE3A /* iQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +69,11 @@
 				EC12B5BA2BF68C2D00CACE3A /* AppDelegate.swift */,
 				EC12B5BC2BF68C2D00CACE3A /* SceneDelegate.swift */,
 				EC12B5BE2BF68C2D00CACE3A /* ViewController.swift */,
+				EC12B5D62BF7501900CACE3A /* Settings.bundle */,
+				EC12B5D42BF7311500CACE3A /* FinishedViewController.swift */,
+				EC12B5D22BF730F100CACE3A /* AnswerViewController.swift */,
+				EC12B5CE2BF697C600CACE3A /* QuizTableViewCell.swift */,
+				EC12B5D02BF7307F00CACE3A /* QuestionViewController.swift */,
 				EC12B5C02BF68C2D00CACE3A /* Main.storyboard */,
 				EC12B5C32BF68C2F00CACE3A /* Assets.xcassets */,
 				EC12B5C52BF68C2F00CACE3A /* LaunchScreen.storyboard */,
@@ -70,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC12B5B62BF68C2D00CACE3A /* iQuiz1 */ = {
+		EC12B5B62BF68C2D00CACE3A /* iQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC12B5CB2BF68C2F00CACE3A /* Build configuration list for PBXNativeTarget "iQuiz1" */;
+			buildConfigurationList = EC12B5CB2BF68C2F00CACE3A /* Build configuration list for PBXNativeTarget "iQuiz" */;
 			buildPhases = (
 				EC12B5B32BF68C2D00CACE3A /* Sources */,
 				EC12B5B42BF68C2D00CACE3A /* Frameworks */,
@@ -82,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = iQuiz1;
+			name = iQuiz;
 			productName = iQuiz1;
-			productReference = EC12B5B72BF68C2D00CACE3A /* iQuiz1.app */;
+			productReference = EC12B5B72BF68C2D00CACE3A /* iQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EC12B5B22BF68C2D00CACE3A /* Build configuration list for PBXProject "iQuiz1" */;
+			buildConfigurationList = EC12B5B22BF68C2D00CACE3A /* Build configuration list for PBXProject "iQuiz" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC12B5B62BF68C2D00CACE3A /* iQuiz1 */,
+				EC12B5B62BF68C2D00CACE3A /* iQuiz */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC12B5D72BF7501900CACE3A /* Settings.bundle in Resources */,
 				EC12B5C42BF68C2F00CACE3A /* Assets.xcassets in Resources */,
 				EC12B5C72BF68C2F00CACE3A /* Base in Resources */,
 				EC12B5C22BF68C2D00CACE3A /* Base in Resources */,
@@ -138,8 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC12B5D52BF7311500CACE3A /* FinishedViewController.swift in Sources */,
+				EC12B5D32BF730F100CACE3A /* AnswerViewController.swift in Sources */,
 				EC12B5BF2BF68C2D00CACE3A /* ViewController.swift in Sources */,
+				EC12B5D12BF7307F00CACE3A /* QuestionViewController.swift in Sources */,
 				EC12B5BB2BF68C2D00CACE3A /* AppDelegate.swift in Sources */,
+				EC12B5CF2BF697C600CACE3A /* QuizTableViewCell.swift in Sources */,
 				EC12B5BD2BF68C2D00CACE3A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC12B5B22BF68C2D00CACE3A /* Build configuration list for PBXProject "iQuiz1" */ = {
+		EC12B5B22BF68C2D00CACE3A /* Build configuration list for PBXProject "iQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC12B5C92BF68C2F00CACE3A /* Debug */,
@@ -351,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC12B5CB2BF68C2F00CACE3A /* Build configuration list for PBXNativeTarget "iQuiz1" */ = {
+		EC12B5CB2BF68C2F00CACE3A /* Build configuration list for PBXNativeTarget "iQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC12B5CC2BF68C2F00CACE3A /* Debug */,
